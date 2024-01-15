@@ -16,6 +16,7 @@ function toggleMagic() {
     if (buttonispressed) {
         var magicMode = true;
         checkMagic;
+
     } else {
         var magicMode = false;
         checkMagic;

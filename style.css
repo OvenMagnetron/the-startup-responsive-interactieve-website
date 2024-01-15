@@ -381,7 +381,6 @@ h2+ul,
 h3+ol,
 h3+p,
 h3+ul,
-p+p,
 p:first-of-type {
     margin-top: -9px;
 }
