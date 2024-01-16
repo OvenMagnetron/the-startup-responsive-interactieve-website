@@ -392,6 +392,33 @@ p.intro {
 }
 
 
+/* Q-grid */
+.q-grid{
+    grid-gap: 1px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(225px,1fr));
+}
+
+details summary img{
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 100%;
+}
+
+details > summary {
+    list-style: none;
+}
+
+details > summary::-webkit-details-marker {
+    display: none;
+}
+
+details ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
 /* RESPONSIVE */
 
 @media screen and (max-width: 850px) {
@@ -513,5 +540,11 @@ p.intro {
     /* MAIN */
     h1 {
         font-size: 41.8864px;
+    }
+
+    .q-grid{
+        grid-gap: 1px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(158px,1fr));
     }
 }

@@ -50,7 +50,7 @@
   <title>Onze mensen | Q42</title>
 
   <link rel="stylesheet" href="./style.css" />
-  <script type="module" src="./main.js" async></script>
+  <script src="./main.js"></script>
 </head>
 
 <body>
@@ -107,7 +107,7 @@
         allemaal hieronder. En wil je ook Q'er worden, scroll dan even voorbij onze hoofden voor de openstaande
         vacatures!
       </p>
-      <p class="intro">Voeg wat magie toe! <button> <i class='bx bxs-magic-wand'></i></button></p>
+      <p class="intro">Voeg wat magie toe! <button onclick="checkMagic()"> <i class='bx bxs-magic-wand'></i></button></p>
     </section>
     <section class="q-grid">
       <details>
@@ -115,10 +115,15 @@
           <img src="/images/people/anne.jpg" alt="Anne" class="default">
           <img src="/images/people/fallback.jpeg" alt="" class="magic" loading="lazy">
         </summary>
-        <ul>
+        <ul class="default">
           <li>Anne</li>
           <li>Anne@q42.nl</li>
           <li>06 12345678</li>
+        </ul>
+        <ul class="magic" loading="lazy">
+          <li>Anne</li>
+          <li>Filter 1</li>
+          <li>Filter 2</li>
         </ul>
       </details>
       <details>
@@ -126,10 +131,15 @@
           <img src="/images/people/bart.jpg" alt="Anne" class="default">
           <img src="/images/people/bart_art.jpeg" alt="" class="magic" loading="lazy">
         </summary>
-        <ul>
+        <ul class="default">
           <li>Bart</li>
           <li>Bart@q42.nl</li>
           <li>06 12345678</li>
+        </ul>
+        <ul class="magic" loading="lazy">
+          <li>Bart</li>
+          <li>Filter 1</li>
+          <li>Filter 2</li>
         </ul>
       </details>
     </section>
