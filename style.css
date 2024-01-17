@@ -419,6 +419,11 @@ details ul {
     margin: 0;
     padding: 0;
 }
+
+details[open] > summary{
+    display: none;
+}
+  
 /* RESPONSIVE */
 
 @media screen and (max-width: 850px) {
