@@ -29,6 +29,18 @@ function checkMagic() {
     }
 }
 
+function closeDetails(details) {
+    details.removeAttribute('open');
+}
+
+// var detailsElements = document.querySelectorAll("details");
+
+// detailsElements.forEach((details) => {
+//     details.addEventListener('mouseover'); {
+//         details.removeAttribute('open');
+//     }
+// });
+
 window.onload = function() {
     checkMagic();
 };
