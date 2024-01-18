@@ -1,5 +1,5 @@
-// Kleine schets hoe ik denk dat de JS er ongeveer uit moet gaan zien.
 
+// Magic mode
 let magicMode = false;
 
 function checkMagic() {
@@ -29,6 +29,7 @@ function checkMagic() {
     }
 }
 
+// Window onload
 window.onload = function() {
     checkMagic();
 
