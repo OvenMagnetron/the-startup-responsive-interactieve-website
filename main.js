@@ -29,18 +29,30 @@ function checkMagic() {
     }
 }
 
-function closeDetails(details) {
-    details.removeAttribute('open');
-}
-
-// var detailsElements = document.querySelectorAll("details");
-
-// detailsElements.forEach((details) => {
-//     details.addEventListener('mouseover'); {
-//         details.removeAttribute('open');
-//     }
-// });
-
 window.onload = function() {
     checkMagic();
+
+    var detailsElements = document.querySelectorAll("details");
+
+    detailsElements.forEach(details => {
+        if (screen.width <= 960) { // Check of de grootte groter is dan 960pixels (mobiel)
+            console.log("Scherm onder 960px, Scherm grootte is" + screen.width)
+            details.addEventListener("click", function() { // Mobiel
+                if (details.hasAttribute('open')){
+                    details.removeAttribute('open');
+                    console.log("Verwijder open")
+                }
+            });
+        } else if (screen.width >= 960) {
+            console.log("Scherm boven 960px, Scherm grootte is" + screen.width)
+            details.addEventListener("mouseover", function () {
+                if (!details.hasAttribute('open')) {
+                    details.toggleAttribute('open');
+                }
+            });
+            details.addEventListener("mouseout", function () {
+                details.removeAttribute('open');
+            });
+        }
+    })
 };
