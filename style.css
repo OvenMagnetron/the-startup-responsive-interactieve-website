@@ -406,6 +406,18 @@ details summary img {
     width: 100%;
 }
 
+details summary {
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+details {
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
 details>summary {
     list-style: none;
 }
@@ -427,27 +439,6 @@ details[open]>summary {
 /* Filters */
 .slide-in {
     animation: slide-in 0.5s ease-in-out forwards;
-}
-
-.poof {
-    animation-name: poof;
-    animation-duration: 2000ms;
-    animation-fill-mode: forwards;
-}
-
-@keyframes poof {
-    0% {
-        opacity: 0;
-        display: none;
-    }
-
-    50% {
-        opacity: 0.5;
-    }
-
-    100% {
-        opacity: 1;
-    }
 }
 
 .hidden {

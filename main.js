@@ -40,7 +40,6 @@ function filterQ(e) {
             person.classList.contains(filter) ?
                 person.classList.remove('hidden') :
                 person.classList.add('hidden');
-            person.classList.add('poof');
         });
     };
 };
