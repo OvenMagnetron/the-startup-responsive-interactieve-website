@@ -66,6 +66,13 @@ window.onload = function () {
     // Selecteer alle details elementen
     var detailsElements = document.querySelectorAll("details");
 
+    // Probleem opgelost met het verspringen van de afbeeldingen
+    detailsElements.forEach(details => {
+        var image = details.querySelector("img");
+        var aspectRatio = image.naturalWidth / image.naturalHeight;
+        details.style.height = image.clientWidth / aspectRatio + "px";
+    });
+
     // Voeg event listeners toe aan details elementen op basis van schermgrootte
     detailsElements.forEach(details => {
         if (screen.width <= 960) { // Controleer of schermgrootte kleiner is dan 960 pixels (mobiel)
