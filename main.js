@@ -5,6 +5,7 @@ function checkMagic() {
     // Selecteer de standaard en magische elementen
     var defaultElements = document.querySelectorAll(".default");
     var magicElements = document.querySelectorAll(".magic");
+    var bodyElement = document.querySelector("body")
 
     // Controleer of magicMode uit staat
     if (magicMode == false) {
@@ -15,6 +16,9 @@ function checkMagic() {
         defaultElements.forEach(function (element) {
             element.style.display = 'block';
         });
+
+        bodyElement.classList.remove("stars");
+
 
         // Zet magicMode aan
         magicMode = true;
@@ -27,7 +31,9 @@ function checkMagic() {
         });
         defaultElements.forEach(function (element) {
             element.style.display = 'none';
-        });
+        })
+
+        bodyElement.classList.add("stars");
 
         // Zet magicMode uit
         magicMode = false;
