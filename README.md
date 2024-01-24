@@ -2,8 +2,8 @@
 ![3-devices-black](https://github.com/OvenMagnetron/the-startup-responsive-interactieve-website/assets/91184609/24e638a4-e914-49dd-be52-fd9e14a0f5e4)
 
 ## Inhouds
-[1. Beschrijving](https://github.com/OvenMagnetron/the-startup-responsive-interactieve-website/main/README.md#beschrijving)
-[2. Kenmerken](https://github.com/OvenMagnetron/the-startup-responsive-interactieve-website/main/README.md#kenmerken)
+[1. Beschrijving](https://github.com/OvenMagnetron/the-startup-responsive-interactieve-website/blob/main/README.md#beschrijving)  
+[2. Kenmerken](https://github.com/OvenMagnetron/the-startup-responsive-interactieve-website/blob/main/README.md#kenmerken)  
 
 ## Beschrijving
 ### Opdrachtgever (Q42)
