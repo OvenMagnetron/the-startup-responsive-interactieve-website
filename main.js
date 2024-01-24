@@ -6,6 +6,8 @@ function checkMagic() {
     var defaultElements = document.querySelectorAll(".default");
     var magicElements = document.querySelectorAll(".magic");
     var bodyElement = document.querySelector("body")
+    var magicWand = document.querySelector(".magic-wand")
+    var magicStars = document.querySelectorAll(".magic-stars")
 
     // Controleer of magicMode uit staat
     if (magicMode == false) {
@@ -15,6 +17,12 @@ function checkMagic() {
         });
         defaultElements.forEach(function (element) {
             element.style.display = 'block';
+        });
+
+        magicWand.classList.remove('shake');
+
+        magicStars.forEach(function (element) {
+            element.classList.remove('poof');
         });
 
         bodyElement.classList.remove("stars");
@@ -32,6 +40,12 @@ function checkMagic() {
         defaultElements.forEach(function (element) {
             element.style.display = 'none';
         })
+
+        magicWand.classList.add('shake');
+
+        magicStars.forEach(function (element) {
+            element.classList.add('poof');
+        });
 
         bodyElement.classList.add("stars");
 
