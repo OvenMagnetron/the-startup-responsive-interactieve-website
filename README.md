@@ -1,7 +1,10 @@
-> _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
+# Q42 - Onze mensen
+![3-devices-black](https://github.com/OvenMagnetron/the-startup-responsive-interactieve-website/assets/91184609/24e638a4-e914-49dd-be52-fd9e14a0f5e4)
 
-# Titel
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+## Inhouds
+1. Beschrijving
+2. Kenmerken
+3. Test
 
 ## Beschrijving
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
