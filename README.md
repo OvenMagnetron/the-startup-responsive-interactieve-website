@@ -51,9 +51,6 @@ De pagina is succesvol gedeployed en toegankelijk via Github Pages
 De HTML-code is gestructureerd en bevat relevante meta-tags voor SEO en Open Graph.
 Er zijn links naar de gebruikte fonts en icons.
 
-**CSS:**
-De stijl is opgeslagen in een apart CSS-bestand ('style.css') voor een duidelijke scheiding van inhoud en presentatie.
-
 **JavaScript:**
 JavaScript-functionaliteit omvat magische modus, filteren van medewerkers en het aanpassen van de weergave op basis van schermgrootte.
 
