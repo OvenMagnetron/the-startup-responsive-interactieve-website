@@ -439,7 +439,8 @@ ul.filters {
     padding: 0;
 }
 
-button.filter-option, .filter {
+button.filter-option,
+.filter {
     -webkit-box-flex: 1;
     -ms-flex-positive: 1;
     border: none;
@@ -451,10 +452,10 @@ button.filter-option, .filter {
     margin: 2px;
     -webkit-text-decoration: none;
     text-decoration: none;
+    padding: 0.2em;
 }
 
-li.filter{
-    padding: 0.2em;
+li.filter {
     background-color: #dce2ce;
     color: #000;
 }
@@ -473,12 +474,12 @@ ul li:first-of-type {
 }
 
 /* Magic mode */
-button.magic-button{
+button.magic-button {
     background-color: transparent;
     border: none;
 }
 
-button.magic-button i{
+button.magic-button i {
     color: #fff;
     font-size: x-large;
 }
@@ -500,7 +501,7 @@ button.magic-button i{
 }
 
 /* Vacatures */
-button.vacature{
+button.vacature {
     background-color: #84bc2d;
     border: 1px solid #84bc2d;
     border-radius: 25px;
