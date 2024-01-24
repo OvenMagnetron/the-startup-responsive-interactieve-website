@@ -59,6 +59,7 @@ body {
     color: #41453b;
     font-family: ff-tisa-sans-web-pro, sans-serif;
     overflow-x: hidden;
+    margin-bottom: 3rem;
 }
 
 /* NAVIGATION */
@@ -385,8 +386,6 @@ p.intro {
     font-size: 120%;
     font-weight: 700;
     margin-bottom: 0;
-    display: flex;
-    align-items: center;
 }
 
 
@@ -485,6 +484,11 @@ button.magic-button {
 
 .magic-stars {
     opacity: 0;
+}
+
+.magic-text {
+    display: flex;
+    align-items: center;
 }
 
 /* MAGIC ANIMATIONS */
