@@ -388,7 +388,6 @@ p.intro {
     margin-bottom: 0;
 }
 
-
 /* Q-grid */
 .q-grid {
     grid-gap: 1px;
@@ -610,6 +609,14 @@ button.vacature {
 }
 
 @media screen and (max-width: 600px) {
+
+    body {
+        margin-bottom: 5rem;
+    }
+
+    h2 {
+        font-size: 34.3096px;
+    }
 
     /* NAVIGATION */
     #navigation .navigation {
